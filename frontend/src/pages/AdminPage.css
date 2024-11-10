@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Poppins:wght@300;400;600&display=swap');
+
+.table table {
+    margin: 40px auto;
+    border-radius: 2rem;
+    border: 1rem hidden #443C68;
+    border-collapse: collapse;
+    box-shadow: 0 0 0 1px black;
+    overflow: hidden;
+    min-width: 10rem;
+    max-width: 80rem;
+}
+
+.table .edit div {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 6%;
+}
+
+.table .edit input {
+    display: flex;
+    align-items: center;
+    clear: both;
+    text-align: center;
+    width: 20vw;
+    padding: 10px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #28a745;
+    border: '1px solid #ccc';
+    font-size: '14px';
+    color: '#333';
+    outline: 'none'
+}
+
+/* .table .edit1 {
+    float: left;
+    width: 50%;
+} */
+
+/* .table .edit2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+} */
+
+.table .edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 6%; */
+    padding: 2%;
+}
+
+.table .edit h2 {
+    font-weight: 600;
+    font-size: large;
+}
+
+.table h1 {
+    font-size: 3rem;
+    color: #4e54c8;
+    font-weight: 900;
+    margin-left: 6%;
+}
+
+.table h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #4e54c8;
+    font-weight: 700;
+}
+
+/* .table .edit Button {
+    height: 40px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: #28a745;
+    color: white;
+    margin-left: 280px;
+} */
+/* .table Button {
+    margin-left: 300px;
+} */
+
+.table li,
+.table p,
+.table a,
+.table td {
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.table thead {
+    font-size: 1rem;
+    background-color: #443C68;
+    color: #fff;
+}
+
+.table th,
+.table td {
+    border: 1px solid #443C68;
+    min-width: 15vw;
+    padding: 1.5rem;
+    line-height: 1.7;
+}
+
+.table td {
+    font-size: 1rem;
+}
+
+.table .edit h2 {
+    display: inline;
+}
